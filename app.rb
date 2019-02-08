@@ -7,5 +7,5 @@ end
 
 class App < Sinatra::Base
 
-    
+
 end
