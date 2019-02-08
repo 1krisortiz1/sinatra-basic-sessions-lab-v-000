@@ -11,7 +11,7 @@ class App < Sinatra::Base
         erb :index
     end
 
-    post '/checkout' do #takes the params from the form and adds it to the session hash. 
+    post '/checkout' do #takes the params from the form and adds it to the session hash.
         session["item"] = params[:item] #the key is item. value is the item the user entered.
         @session = session #stores the has in an instance variable.
     end
