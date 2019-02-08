@@ -14,7 +14,7 @@ class App < Sinatra::Base
     get '/checkout'
         session["item"] = params[:item]
         @session = session
-        
+
     end
 
 end
